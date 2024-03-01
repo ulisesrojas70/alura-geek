@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/gobal_productos.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+<body>
+    <header class="nav container">
+        <div class="nav__logo-search">
+            <a href="./index.html">
+                <div class="nav__logo">
+                    <img class="logo__contol" src="./assets/img/sports_esports_black_24dp 1.svg" alt="">
+                    <img class="logo__letras" src="./assets/img/Texto.svg" alt="">
+                </div>
+            </a>
+            <input type="search" name="" id="" class="nav__search" placeholder="¿Qué deseas buscar?">
+            <button type="button" class="prueba"></button>
+        </div>
+        <div class="nav__login">
+            <a href="./login.html"><button type="button" class="button__login">Login</button></a>
+        </div>
+        <a href="#" class="nav__search--icon">
+            <img class="nav__search--black" src="./assets/img/Icone_search_black.svg" alt="">
+        </a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero__titulo container animate__animated animate__lightSpeedInLeft">Julio Promocional</h1>
+            <h2 class="hero__subtitulo container animate__animated animate__lightSpeedInLeft">Productos seleccionados con 33% de descuento</h2>
+            <button type="button" class="hero__button container animate__animated animate__lightSpeedInLeft">Ver Consolas</button>
+        </section>
+
+        <div id="productos">
+
+        </div>
+
+        <section class="contacto">
+            <div class="contacto__info">
+                <img src="./assets/img/Logo.png" alt="" class="logo_alurageek">
+                <ul class="contacto__lista">
+                    <li class="contacto__lista--item"><a href="#">Quienes somos</a></li>
+                    <li class="contacto__lista--item"><a href="#">Política de privacidad</a></li>
+                    <li class="contacto__lista--item"><a href="#">Programa de fidelidad</a></li>
+                    <li class="contacto__lista--item"><a href="#">Nuestras tiendas</a></li>
+                    <li class="contacto__lista--item"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="contacto__lista--item"><a href="#">Anúncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="contacto__form">
+                <h1 class="contacto__form--titulo">Hable con nosotros</h1>
+                <form action="" class="contacto__inputs">
+                    <fieldset>
+                        <div class="input-group">
+                            <input name="name" id="name" class="input" type="text"  autocomplete="off"  required data-tipo="nombre">
+                            <label class="user-label">Nombre</label>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea name="mensaje" id="mensaje" class="input" required autocomplete="off" data-tipo="mensaje" placeholder="Escribe tu mensaje" rows="7"></textarea>
+                        </div>
+                    </fieldset>
+                </form>
+                <button type="button" class="contacto__button">Enviar mensaje</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <span>Desarrollado por: Ulises Rojas Hinojosa</span>
+            <span>2023</span>
+        </footer>
+    </main>
+    <script src="./js/mostrar_productos_categoria.js"></script>
+</body>
+</html>

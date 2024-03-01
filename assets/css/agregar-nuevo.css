@@ -1,0 +1,113 @@
+.button__menu-administrador {
+    cursor: pointer;
+    width: 150px;
+    padding: 12px 16px;
+    border: 1px solid #2A7AE4;
+    background-color: transparent;
+    color:#2A7AE4;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.agregar-nuevo {
+    background: var(--preto-05, #F5F5F5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
+
+.agregar-nuevo__titulo {
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.agregar-nuevo__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.agregar-nuevo_input {
+    height: 51px;
+    width: calc(328px - 10px);
+    padding-left: 10px;
+    color: #A2A2A2;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.agregar-nuevo_input:focus {
+    color: var(--preto-100, #464646);
+}
+
+.button__agregar {
+    width: 318px;
+    height: 51px;
+    padding: 12px 16px;
+    background: var(--azul-100, #2A7AE4);
+    color: var(--preto-branco, #FFF);
+    border: none;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .button__menu-administrador  {
+        width: 170px;
+    }
+
+    .button__agregar {
+        width: 694px;
+        height: 51px;
+    }
+
+    .agregar-nuevo_input {
+        width: calc(704px - 10px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button__menu-administrador  {
+        width: 185px;
+        padding: 16px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .agregar-nuevo__titulo {
+        font-size: 32px;
+    }
+
+    .agregar-nuevo_input {
+        height: 51px;
+        width: calc(559px - 10px);
+    }
+
+    .button__agregar {
+        width: 549px;
+        height: 51px;
+    }
+}

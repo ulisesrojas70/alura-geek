@@ -1,0 +1,142 @@
+{
+    "categorias": [
+        {
+            "id_categoria": 1,
+            "nombre_categoria": "Star Wars",
+            "productos": [
+                {
+                    "id": 101,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/starwars_a.jpg"
+                },
+                {
+                    "id": 102,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/starwars_b.jpg"
+                },
+                {
+                    "id": 103,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/starwars_c.jpg"
+                },
+                {
+                    "id": 104,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/starwars_d.jpg"
+                },
+                {
+                    "id": 105,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/starwars_e.jpg"
+                },
+                {
+                    "id": 106,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/starwars_f.jpg"
+                }
+            ]
+        },
+        {
+            "id_categoria": 2,
+            "nombre_categoria": "Consolas",
+            "productos": [
+                {
+                    "id": 201,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_a.jpg"
+                },
+                {
+                    "id": 202,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_b.jpg"
+                },
+                {
+                    "id": 203,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_c.jpg"
+                },
+                {
+                    "id": 204,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_d.jpg"
+                },
+                {
+                    "id": 205,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_e.jpg"
+                },
+                {
+                    "id": 206,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_f.jpg"
+                },
+                {
+                    "id": 207,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_f.jpg"
+                },
+                {
+                    "id": 208,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/consolas_f.jpg"
+                }
+            ]
+        },
+        {
+            "id_categoria": 3,
+            "nombre_categoria": "Diversos",
+            "productos": [
+                {
+                    "id": 301,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/diversos_a.jpg"
+                },
+                {
+                    "id": 302,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/diversos_b.jpg"
+                },
+                {
+                    "id": 303,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/diversos_c.jpg"
+                },
+                {
+                    "id": 304,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/diversos_d.jpg"
+                },
+                {
+                    "id": 305,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/diversos_e.jpg"
+                },
+                {
+                    "id": 306,
+                    "nombre": "Producto X",
+                    "precio": 500,
+                    "imagen": "./assets/img/diversos_f.jpg"
+                }
+            ]
+        }
+    ]
+}

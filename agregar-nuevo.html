@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar nuevo producto</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/agregar-nuevo.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+<body>
+    <header class="nav container">
+        <div class="nav__logo-search">
+            <a href="./index.html">
+                <div class="nav__logo">
+                    <img class="logo__contol" src="./assets/img/sports_esports_black_24dp 1.svg" alt="">
+                    <img class="logo__letras" src="./assets/img/Texto.svg" alt="">
+                </div>
+            </a>
+            <input type="search" name="" id="" class="nav__search" placeholder="¿Qué deseas buscar?">
+            <button type="button" class="prueba"></button>
+        </div>
+        <div class="nav__menu-administrador">
+            <button type="button" class="button__menu-administrador">Menú Administrador</button>
+        </div>
+        <a href="#" class="nav__search--icon">
+            <img class="nav__search--black" src="assets/img/Icone_search_black.svg" alt="">
+        </a>
+    </header>
+
+    <main>
+        <section class="agregar-nuevo">
+            <h1 class="agregar-nuevo__titulo">Agregar nuevo producto</h1>
+            <form action="">
+                <fieldset class="agregar-nuevo__inputs">
+                    <div>
+                        <input name="url__img" id="url__img" class="agregar-nuevo_input" type="url" autocomplete="off" placeholder="URL">
+                    </div>
+                    <div>
+                        <select name="categoria" id="categoria" class="agregar-nuevo_input" autocomplete="off" placeholder="Categoría">
+                            <option value="">--Seleccione--</option>
+                            <option value="">StarWars</option>
+                            <option value="">Consolas</option>
+                            <option value="">Diversos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input name="nombre_producto" id="nombre_producto" class="agregar-nuevo_input" type="text" autocomplete="off" placeholder="Nombre del producto">
+                    </div>
+                    <div>
+                        <input name="precio_producto" id="precio_producto" class="agregar-nuevo_input" type="number" autocomplete="off" placeholder="Precio del producto">
+                    </div>
+                    <div>
+                        <input name="descripcion" id="descripcion" class="agregar-nuevo_input" type="text" autocomplete="off" placeholder="Descripción">
+                    </div>
+                </fieldset>
+            </form>
+            <button type="button" class="button__agregar">Agregar producto</button>
+        </section>
+
+        <section class="contacto">
+            <div class="contacto__info">
+                <img src="assets/img/Logo.png" alt="" class="logo_alurageek">
+                <ul class="contacto__lista">
+                    <li class="contacto__lista--item"><a href="#">Quienes somos</a></li>
+                    <li class="contacto__lista--item"><a href="#">Política de privacidad</a></li>
+                    <li class="contacto__lista--item"><a href="#">Programa de fidelidad</a></li>
+                    <li class="contacto__lista--item"><a href="#">Nuestras tiendas</a></li>
+                    <li class="contacto__lista--item"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="contacto__lista--item"><a href="#">Anúncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="contacto__form">
+                <h1 class="contacto__form--titulo">Hable con nosotros</h1>
+                <form action="" class="contacto__inputs">
+                    <fieldset>
+                        <div class="input-group">
+                            <input name="name" id="name" class="input" type="text"  autocomplete="off"  required data-tipo="nombre" placeholder="Nombre">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea name="mensaje" id="mensaje" class="input" required autocomplete="off" data-tipo="mensaje" placeholder="Escribe tu mensaje" rows="7"></textarea>
+                        </div>
+                    </fieldset>
+                </form>
+                <button type="button" class="contacto__button">Enviar mensaje</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <span>Desarrollado por: Ulises Rojas Hinojosa</span>
+            <span>2023</span>
+        </footer>
+    </main>
+</body>
+</html>
